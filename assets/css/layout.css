@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@import './reset.css';
+@import './common.css';
+
+
+/* header */
+.inner1{
+  display: flex;
+  align-items: center;      
+  position: relative;  
+  height: 48px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+.inner1 .logo a::before{
+  display: block;
+  width: 105px;
+  height: 27px;
+  background-position: -5px -165px;    
+  content: '';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
+.inner1 .gnb{
+  padding-left: 70px;
+}
+.inner1 .gnb .gnb-list{
+  display: flex;
+  gap: 20px;
+}
+.inner1 .gnb .gnb-item{
+  font-weight: bold;
+}
+.inner1 .gnb .gnb-item:hover{
+  color: #2292e9;
+}
+.inner1 .util-area{
+  position: absolute;
+  right: 0;
+}
+.inner1 .util-list{
+  display: flex;
+  gap: 20px;
+}
+.inner1 .util-item{
+  font-size: 14px;
+  font-weight: bold;
+}
+.inner1 .util-item:hover{
+  color: #2292e9;
+}
+
+.inner2{
+  display: flex;
+  position: relative;
+  height: 119px;
+}
+.inner2 .slogan-area{
+  position: absolute;
+  display: block;
+  width: 133px;
+  height: 51px;
+  background: url(../images/slogan.png);
+  background-repeat: no-repeat;
+  margin: 38px 0 30px;
+}
+.inner2 .search-area{
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  margin-left: -326px;
+}
+.inner2 fieldset{
+  width: 520px;
+  border: 3px solid #2292e9;
+  position: relative;
+}
+.inner2 .input-text{
+ width: 472px;
+ height: 38px;
+ line-height: 38px;
+ padding: 0 10px;
+ border: 0;
+}
+.inner2 ::placeholder{
+  font-size: 14px;
+  color: #2292e9;
+}
+.inner2 .btn-keyboard{
+  display: block;
+  position: absolute;
+  margin-left: 3px;
+  top: 12px;
+  right: 42px;
+  cursor: pointer;
+  width: 29px;
+  height: 16px;
+  background: url(../images/keyboard.png) no-repeat;
+}
+.inner2 .btn-submit::before{
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  right: 0;
+  background-position: -32px -97px;
+  background-repeat: no-repeat;
+  padding: 0;
+  content: '';
+}
+
+.inner2 .weather-area{
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 270px;
+  height: 85px;
+  margin-top: 34px;
+}
+.inner2 .weather-icon{
+  text-align: center;
+}
+.inner2 .info-wrap{
+  max-width: 242px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.inner2 .temp-box{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.inner2 .temp-box strong{
+  font-size: 25px;
+  margin-right: 10px;
+  line-height: 1.35em;
+  color: #222;
+  font-weight: bold;
+}
+.inner2 .temp-box .desc{
+  letter-spacing: -0.1em;
+}
+.inner2 .dust-box{
+  display: block;
+  font-size: 13px;
+  letter-spacing: -1px;
+  margin-top: 7px;
+}
+.inner2 .dust-box .good{
+  font-size: 14px;
+  color: #0068b7;
+}
+.inner2 .lang-area{
+  display: flex;
+  position: absolute;
+  top: 0;right: 0;
+  width: 110px;
+  height: 21px;
+}
+.inner2 #langList{
+  width: 80px;
+  height: 21px;
+  border-color: #afcfea;
+  color: #1e6cb3;
+  font-size: 12px;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+  line-height: 21px;
+}
+.inner2 .btn-select{
+  width: 30px;
+  height: 21px;
+  font-size: 11px;
+  color: #fff;
+  background: #1e6cb3;
+  border: 0;
+}
+
+
+/* footer */
+.link-area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.link-area .nav-list{
+  display: flex;
+}
+.link-area .nav-item{
+  position: relative;
+  padding: 0 10px;
+}
+.link-area .nav-item::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 1px;
+  height: 14px;
+  margin-top: -6px;
+  background: #dcdcdc;
+}
+.link-area .nav-item:first-child::before{
+  display: none;
+}
+.link-area .nav-item a{
+  font-size: 12px;
+  color: #636363;
+}
+.link-area .nav-item a.black{
+  font-weight: bold;
+  color: #000;
+}
+
+.link-area .sns-list{
+  display: flex;
+  gap: 12px;
+}
+.link-area .sns-item a{
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.link-area .sns-item .fb{
+  background-position: -25px 0;
+}
+.link-area .sns-item .fb:hover{
+  background-position: -25px -25px;
+}
+.link-area .sns-item .twitter{
+  background-position: -50px 0;
+}
+.link-area .sns-item .twitter:hover{
+  background-position: -50px -25px;
+}
+.link-area .sns-item .insta{
+  background-position: -75px 0;
+}
+.link-area .sns-item .insta:hover{
+  background-position: -75px -25px;
+}
+.link-area .sns-item .kakao{
+  background-position: -100px 0;
+}
+.link-area .sns-item .kakao:hover{
+  background-position: -100px -25px;
+}
+.link-area .sns-item .youtube{
+  background-position: -125px 0;
+}
+.link-area .sns-item .youtube:hover{
+  background-position: -125px -25px;
+}
+.link-area .sns-item .nb{
+  background-position: -150px 0;
+}
+.link-area .sns-item .nb:hover{
+  background-position: -150px -25px;
+}
+
+.address-area{
+  position: relative;
+  display: flex;
+  padding: 22px 0;
+  border-top: 1px solid #ccc;
+}
+.address-area .call-box{
+  width: 108px;
+  height: 45px;
+  background-position: -180px 0;
+  margin-right: 40px;
+}
+
+.address-area .address-box p{
+  font-size: 12px;
+  color: #636363;
+  line-height: 1.35em;
+}
+
+.address-area .img-box{
+  position: absolute;
+  right: 0;
+  display: flex;
+  gap: 10px;
+}
+
+/* 업버튼 */
+.btn-up{
+  position: fixed;
+  bottom: -100px;
+  left: 50%;
+  display: block;
+  width: 34px;
+  height: 34px;
+  margin-left: 600px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 1s,bottom 1s;
+}
+.btn-up.show{
+  visibility: visible;
+  opacity: 1;
+  bottom: 100px;
+}

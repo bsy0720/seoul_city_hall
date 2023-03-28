@@ -1,0 +1,69 @@
+.blind{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+
+.common-inner{
+  width: 1152px;
+  margin: 0 auto;
+  min-width: 1152px;
+}
+
+.headline{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sc-slide .control-area .btn-nav.autoplay.active,
+.sc-bannerslide .control-area .autoplay.active,
+.sc-bannerslide .control-area .next,
+.sc-bannerslide .control-area .autoplay,
+.sc-bannerslide .control-area .prev,
+.address-area .call-box,
+.btn-all::after,
+.inner4 .sc-board .link-more::before,
+.inner2 .btn-submit::before,
+.inner1 .logo a::before{
+  background-image: url(../images/sp-bg.png);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
+.sc-service .service-item::before{
+  background-image: url(../images/sp-bg3.png);
+  background-repeat: no-repeat;
+  background-size: 1200px;
+}
+.sc-media .sns-item a,
+.sc-media .group-sns .headline::after{
+  background-image: url(../images/sp-sns.png);
+  background-repeat: no-repeat;
+}
+
+.link-area .sns-item a{
+  background-image: url(../images/ft_sp-sns.png);
+  background-repeat: no-repeat;
+}
+
+
+.sc-slide .group-nav .btn-nav.citizen::before,
+.sc-slide .group-nav .btn-nav.news::before{
+  background-image: url(../images/sp-ic.png);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
+.sc-slide .control-area .btn-nav.autoplay.active,
+.sc-slide .control-area .btn-nav.next,
+.sc-slide .control-area .btn-nav.autoplay,
+.sc-slide .control-area .btn-nav.prev{
+  background: url(../images/sp-bg4.png);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
+
