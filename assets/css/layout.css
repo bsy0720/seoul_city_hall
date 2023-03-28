@@ -18,6 +18,8 @@
   content: '';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 }
 .inner1 .gnb{
+  display: flex;
+  align-items: center;
   padding-left: 70px;
 }
 .inner1 .gnb .gnb-list{
@@ -35,6 +37,8 @@
   right: 0;
 }
 .inner1 .util-list{
+  position: absolute;
+  right: 0;
   display: flex;
   gap: 20px;
 }
