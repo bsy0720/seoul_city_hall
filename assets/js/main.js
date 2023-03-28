@@ -133,6 +133,7 @@ $(function () { //
     //     }
     // })
 
+    //리팩토링한 소스
     $('.sc-related .sub-item a').keydown(function(e) {
         const key = e.keyCode;
         const firstChild = $(this).parent().is(':first-child');
