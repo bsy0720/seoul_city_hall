@@ -120,6 +120,7 @@ $(function () { //
      * @tab키_접근성
      */
 
+    //리팩토링 전
     // $('.sc-related .sub-item:first-child a').keydown(function(e){
     //     key = e.keyCode;
     //     if(key === 9 && e.shiftKey){

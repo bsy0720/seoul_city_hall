@@ -32,10 +32,6 @@
 .inner1 .gnb .gnb-item:hover{
   color: #2292e9;
 }
-.inner1 .util-area{
-  position: absolute;
-  right: 0;
-}
 .inner1 .util-list{
   position: absolute;
   right: 0;
